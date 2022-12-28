@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.red {
+    color: red;
+}
+.display {
+    display: inline-block;
+}
+.box {
+   line-height: 0px;
+}
+.colored {
+    background-color: red;
+    color: blue;
+    transform: rotate(10deg);
+}

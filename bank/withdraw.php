@@ -5,8 +5,8 @@ $users = unserialize(file_get_contents(__DIR__ . '/data'));
 $id = (int) $_GET['id'];
 
 foreach($users as $index => $user) {
-    if ($user['id'] == $id && ($users[$index]['tugrik'] - (int) $_POST['tugrik']) > 0 ){
-     $users[$index]['tugrik'] -= (int) $_POST['tugrik'];
+    if ($user['id'] == $id && ($users[$index]['eL'] - (int) $_POST['eL']) >= 0 ){
+     $users[$index]['eL'] -= (int) $_POST['eL'];
      break;
     }
 };

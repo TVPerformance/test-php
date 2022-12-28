@@ -6,7 +6,7 @@ $id = (int) $_GET['id'];
 
 foreach($users as $index => $user) {
     if ($user['id'] == $id){
-     $users[$index]['tugrik'] += (int) $_POST['tugrik'];
+     $users[$index]['eL'] += (int) $_POST['eL'];
      break;
     }
 };
