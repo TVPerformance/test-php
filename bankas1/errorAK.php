@@ -23,7 +23,7 @@
           <a style="text-decoration: none; padding: 10px; background-color: #1170FF; color: #ffffff; border-radius: 5px; border: solid #000 2px" href="#">Prisijungti</a>
        </div>
       </div>
-    <h2>Vardas arba pavardė turi būti bent iš trijų raidžių</h2>
+    <h2 style="color: #FF0000">Sąskaita tokiu asmens kodu jau atidaryta</h2>
     <form action="http://localhost/test-php/bank/nauja_sask.php">
         <button style="padding: 10px; background-color: #1170FF; border-radius: 5px; margin-top: -6px; margin-right: 10px;" type="submit">Grįžti</button>
     </form>
